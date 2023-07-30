@@ -8,7 +8,7 @@ include __DIR__ . '/../../layout/header.php';
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
                         <h1 class="h3 mb-0 text-gray-800">Dashboard</h1>
-                        <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
+                        <a href="http://localhost/Clonacion-de-repositorios/EPR-DSM35-AW-PROYECTO/views/type_user/add.php" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
                                 class="fas fa-plus fa-sm text-white-50"></i> Agregar Tipo_Usuario</a>
                     </div>
                 <!-- Begin Page Content -->
