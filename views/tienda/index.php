@@ -9,13 +9,13 @@ include __DIR__ . '/../../layout/header.php';
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
                         <h1 class="h3 mb-0 text-gray-800">Dashboard</h1>
                         <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
-                                class="fas fa-plus fa-sm text-white-50"></i> Agregar Productos</a>
+                                class="fas fa-plus fa-sm text-white-50"></i> Agregar Tienda</a>
                     </div>
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
 
                     <!-- Page Heading -->
-                    <h1 class="h3 mb-2 text-gray-800">Tabla Productos</h1>
+                    <h1 class="h3 mb-2 text-gray-800">Tabla Tienda</h1>
                     <p class="mb-4"></p>
 
                     <!-- DataTales Example -->
@@ -28,23 +28,21 @@ include __DIR__ . '/../../layout/header.php';
                                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                                     <thead>
                                         <tr>
-                                            <th>ID_Producto</th>
-                                            <th>Nombre Producto</th>
-                                            <th>Descripcion</th>
-                                            <th>Precio</th>
-                                            <th>ID_Categoria</th>
                                             <th>ID_Tienda</th>
+                                            <th>Nombre</th>
+                                            <th>Telefono</th>
+                                            <th>Correo</th>
+                                            <th>ID_Estado</th>
                                             <th></th>
                                         </tr>
                                     </thead>
                                     <tfoot>
                                         <tr>
-                                            <th>ID_Producto</th>
-                                            <th>Nombre Producto</th>
-                                            <th>Descripcion</th>
-                                            <th>Precio</th>
-                                            <th>ID_Categoria</th>
                                             <th>ID_Tienda</th>
+                                            <th>Nombre</th>
+                                            <th>Telefono</th>
+                                            <th>Correo</th>
+                                            <th>ID_Estado</th>
                                             <th></th>
                                         </tr>
                                     </tfoot>
@@ -52,7 +50,6 @@ include __DIR__ . '/../../layout/header.php';
                                         <tr>
                                             <td>Tiger Nixon</td>
                                             <td>System Architect</td>
-                                            <td></td>
                                             <td></td>
                                             <td></td>
                                             <td></td>
@@ -79,7 +76,6 @@ include __DIR__ . '/../../layout/header.php';
                                         <span class="text">Eliminar Registros</span>
                                     </a>
                                             </td>
-                                            
                                         </tr>
                                     </tbody>
                                 </table>

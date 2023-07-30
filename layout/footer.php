@@ -55,6 +55,12 @@
     <!-- Page level custom scripts -->
     <script src="http://localhost/Clonacion-de-repositorios/EPR-DSM35-AW-PROYECTO/resource/js/demo/chart-area-demo.js"></script>
     <script src="http://localhost/Clonacion-de-repositorios/EPR-DSM35-AW-PROYECTO/resource/js/demo/chart-pie-demo.js"></script>
+ <!-- Page level plugins -->
+ <script src="http://localhost/Clonacion-de-repositorios/EPR-DSM35-AW-PROYECTO/vendor/datatables/jquery.dataTables.min.js"></script>
+    <script src="http://localhost/Clonacion-de-repositorios/EPR-DSM35-AW-PROYECTO/vendor/datatables/dataTables.bootstrap4.min.js"></script>
+
+    <!-- Page level custom scripts -->
+    <script src="http://localhost/Clonacion-de-repositorios/EPR-DSM35-AW-PROYECTO/resource/js/demo/datatables-demo.js"></script>
 
 </body>
 
