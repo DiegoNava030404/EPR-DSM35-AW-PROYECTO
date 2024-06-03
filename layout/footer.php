@@ -1,15 +1,12 @@
-            <!-- Footer -->
-            <footer class="sticky-footer bg-white">
-                <div class="container my-auto">
-                    <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; Your Website 2021</span>
-                    </div>
-                </div>
-            </footer>
-            <!-- End of Footer -->
-
+    <!-- Footer -->
+    <footer class="sticky-footer bg-white">
+        <div class="container my-auto">
+            <div class="copyright text-center my-auto">
+                <span> &copy; Your Website 2024</span>
+            </div>
         </div>
-        <!-- End of Content Wrapper -->
+    </footer>
+    </div>
 
     </div>
     <!-- End of Page Wrapper -->
@@ -40,28 +37,35 @@
     </div>
 
     <!-- Bootstrap core JavaScript-->
-    <script src="http://localhost/Clonacion-de-repositorios/EPR-DSM35-AW-PROYECTO/vendor/jquery/jquery.min.js"></script>
-    <script src="http://localhost/Clonacion-de-repositorios/EPR-DSM35-AW-PROYECTO/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://localhost/EPR-DSM35-AW-PROYECTO/vendor/jquery/jquery.min.js"></script>
+    <script
+        src="https://localhost/EPR-DSM35-AW-PROYECTO/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Core plugin JavaScript-->
-    <script src="http://localhost/Clonacion-de-repositorios/EPR-DSM35-AW-PROYECTO/vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script
+        src="https://localhost/EPR-DSM35-AW-PROYECTO/vendor/jquery-easing/jquery.easing.min.js"></script>
 
     <!-- Custom scripts for all pages-->
-    <script src="http://localhost/Clonacion-de-repositorios/EPR-DSM35-AW-PROYECTO/resource/js/sb-admin-2.min.js"></script>
+    <script src="https://localhost/EPR-DSM35-AW-PROYECTO/resource/js/sb-admin-2.min.js"></script>
 
     <!-- Page level plugins -->
-    <script src="http://localhost/Clonacion-de-repositorios/EPR-DSM35-AW-PROYECTO/vendor/chart.js/Chart.min.js"></script>
+    <script src="https://localhost/EPR-DSM35-AW-PROYECTO/vendor/chart.js/Chart.min.js"></script>
 
     <!-- Page level custom scripts -->
-    <script src="http://localhost/Clonacion-de-repositorios/EPR-DSM35-AW-PROYECTO/resource/js/demo/chart-area-demo.js"></script>
-    <script src="http://localhost/Clonacion-de-repositorios/EPR-DSM35-AW-PROYECTO/resource/js/demo/chart-pie-demo.js"></script>
- <!-- Page level plugins -->
- <script src="http://localhost/Clonacion-de-repositorios/EPR-DSM35-AW-PROYECTO/vendor/datatables/jquery.dataTables.min.js"></script>
-    <script src="http://localhost/Clonacion-de-repositorios/EPR-DSM35-AW-PROYECTO/vendor/datatables/dataTables.bootstrap4.min.js"></script>
+    <script
+        src="https://localhost/EPR-DSM35-AW-PROYECTO/resource/js/demo/chart-area-demo.js"></script>
+    <script
+        src="https://localhost/EPR-DSM35-AW-PROYECTO/resource/js/demo/chart-pie-demo.js"></script>
+    <!-- Page level plugins -->
+    <script
+        src="https://localhost/EPR-DSM35-AW-PROYECTO/vendor/datatables/jquery.dataTables.min.js"></script>
+    <script
+        src="https://localhost/EPR-DSM35-AW-PROYECTO/vendor/datatables/dataTables.bootstrap4.min.js"></script>
 
     <!-- Page level custom scripts -->
-    <script src="http://localhost/Clonacion-de-repositorios/EPR-DSM35-AW-PROYECTO/resource/js/demo/datatables-demo.js"></script>
+    <script
+        src="https://localhost/EPR-DSM35-AW-PROYECTO/resource/js/demo/datatables-demo.js"></script>
 
-</body>
+    </body>
 
-</html>
+    </html>
