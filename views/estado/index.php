@@ -34,13 +34,7 @@ include __DIR__ . '/../../layout/header.php';
                                 <th></th>
                             </tr>
                         </thead>
-                        <tfoot>
-                            <tr>
-                                <th>ID</th>
-                                <th>Nombre</th>
-                                <th></th>
-                            </tr>
-                        </tfoot>
+                       
                         <tbody>
                             <tr>
                                 <?php

@@ -40,19 +40,7 @@ include __DIR__ . '/../../layout/header.php';
                                 <th></th>
                             </tr>
                         </thead>
-                        <!-- <tfoot>
-                            <tr>
-                                <th>ID</th>
-                                <th>Nombre</th>
-                                <th>Tipo de Material</th>
-                                <th>Cantidad</th>
-                                <th>Fecha de Entrada al Almacen</th>
-                                <th>Fecha de Salida del Almacen</th>
-                                <th>Proveedor</th>
-                                <th>Descripción</th>
-                                <th></th>
-                            </tr>
-                        </tfoot> -->
+                       
                         <tbody>
                             <tr>
                                 <?php
@@ -105,7 +93,7 @@ include __DIR__ . '/../../layout/header.php';
                                         </a>
 
                                         <div class="my-2"></div>
-                                        <a href="https://localhost/EPR-DSM35-AW-PROYECTOcruds-sales/sow-sales.php?id_cat=<?php echo $id_cat ?>"
+                                        <a href="https://localhost/EPR-DSM35-AW-PROYECTO/views/sales/edit.php?id_cat=<?php echo $id_cat ?>"
                                          class="btn btn-warning btn-icon-split">
                                             <span class="icon text-white-50">
                                                 <i class="fas fa-edit"></i>
@@ -114,7 +102,7 @@ include __DIR__ . '/../../layout/header.php';
                                         </a>
                                         
                                         <div class="my-2"></div>
-                                        <a href="https://localhost/EPR-DSM35-AW-PROYECTOcruds-sales/delete-sales.php?id_cat=<?php echo $id_cat ?>"
+                                        <a href="https://localhost/EPR-DSM35-AW-PROYECTO/cruds-sales/delete-sales.php?id_cat=<?php echo $id_cat ?>"
                                             class="btn btn-danger btn-icon-split">
                                             <span class="icon text-white-50">
                                                 <i class="fas fa-trash"></i>

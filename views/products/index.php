@@ -16,13 +16,13 @@ include __DIR__ . '/../../layout/header.php';
     <div class="container-fluid">
 
         <!-- Page Heading -->
-        <h1 class="h3 mb-2 text-gray-800">Tabla Herraamientas</h1>
+        <h1 class="h3 mb-2 text-gray-800">Tabla Herramientas</h1>
         <p class="mb-4"></p>
 
         <!-- DataTales Example -->
         <div class="card shadow mb-4">
             <div class="card-header py-3">
-                <h6 class="m-0 font-weight-bold text-primary">Visualizacion de Tabla</h6>
+                <h6 class="m-0 font-weight-bold text-primary">Visualización de la Tabla</h6>
             </div>
             <div class="card-body">
                 <div class="table-responsive">
@@ -44,23 +44,7 @@ include __DIR__ . '/../../layout/header.php';
                                 <th></th>
                             </tr>
                         </thead>
-                        <!-- <tfoot>
-                            <tr>
-                                <th>ID</th>
-                                <th>Nombre Herramienta</th>
-                                <th>No de Serie</th>
-                                <th>Estado</th>
-                                <th>Marca</th>
-                                <th>Ubicacion</th>
-                                <th>Fecha 1er Mantenimiento</th>
-                                <th>Fecha 2do Mantenimiento</th>
-                                <th>Fecha de Egreso</th>
-                                <th>Fecha de Ingreso</th>
-                                <th>Remitente</th>
-                                <th>Fecha de Compra</th>
-                                <th></th>
-                            </tr>
-                        </tfoot> -->
+                  
                         <tbody>
                             <tr>
                                 <?php

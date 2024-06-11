@@ -12,18 +12,19 @@ include __DIR__ . '/../../layout/header.php';
 
     while ($row = $sql->fetch_assoc()) {
       $id_cat = $row['ID'];
-      $nombre_cat = $row['Nombre_Herramienta'];
-      $serie_cat = $row['No_Serie'];
-      $estado_cat = $row['Estado'];
-      $marca_cat = $row['Marca'];
-      $ubicacion_cat = $row['Ubicacion'];
-      $fecha_1er_cat = $row['Fecha_1er_Mantenimiento'];
-      $fecha_2do_cat = $row['Fecha_2do_Mantenimiento'];
-      $fecha_egreso_cat = $row['Fecha_Egreso'];
-      $fecha_ingreso_cat = $row['Fecha_Ingreso'];
-      $remitente_cat = $row['Remitente'];
-      $fecha_compra_cat = $row['Fecha_Compra'];
+        $nombre_cat = $row['Nombre_Herramienta']; 
+          $serie_cat = $row['No_Serie'];
+            $estado_cat = $row['Estado'];
+              $marca_cat = $row['Marca'];
+                $ubicacion_cat = $row['Ubicacion'];
+                  $fecha_1er_cat = $row['Fecha_1er_Mantenimiento'];
+                    $fecha_2do_cat = $row['Fecha_2do_Mantenimiento'];
+                      $fecha_egreso_cat = $row['Fecha_Egreso'];
+                        $fecha_ingreso_cat = $row['Fecha_Ingreso'];
+                          $remitente_cat = $row['Remitente'];
+                            $fecha_compra_cat = $row['Fecha_Compra'];
     ?>
+    
 
       <div class="mb-3">
         <label for="exampleInputPassword1" class="form-label">Nombre de la Herramienta</label>
@@ -43,9 +44,9 @@ include __DIR__ . '/../../layout/header.php';
           <?php
           $id_cat = $_GET["Id_cat"];
           require __DIR__ . '/../../database/conexion.php';
-          $sql = $enlace->query("SELECT * FROM herramientas");
+          $sql = $enlace->query("SELECT * FROM estado");
           while ($resultado = $sql->fetch_assoc()) {
-            echo "<option value='" . $resultado['ID'] . "'>" . $resultado['Nombre'] . "</option>";
+            echo "<option value='" . $resultado['Nombre'] . "'>" . $resultado['Nombre'] . "</option>";
           }
           ?>
         </select>

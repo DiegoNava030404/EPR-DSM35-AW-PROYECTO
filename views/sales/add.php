@@ -4,10 +4,6 @@ include __DIR__ . '/../../layout/header.php';
 ?>
 <div class="card-body">
   <form action="./../../app/Controllers/cruds-sales/agregar-sales.php" method="POST">
-    <!--<div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">ID</label>
-    <input type="number" class="form-control" id="ID">
-  </div>-->
 
     <div class="mb-3">
       <label for="exampleInputPassword1" class="form-label">Nombre del Consumible</label>

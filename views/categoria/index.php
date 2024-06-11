@@ -10,7 +10,7 @@ include __DIR__ . '/../../layout/header.php';
         <h1 class="h3 mb-0 text-gray-800">SWMA Admin</h1>
         <a href="https://localhost/EPR-DSM35-AW-PROYECTO/views/categoria/add.php"
             class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
-                class="fas fa-plus fa-sm text-white-50"></i> Agregar Categoria</a>
+                class="fas fa-plus fa-sm text-white-50"></i> Agregar Ubicacion</a>
     </div>
     <!-- Begin Page Content -->
     <div class="container-fluid">
@@ -34,13 +34,7 @@ include __DIR__ . '/../../layout/header.php';
                                 <th></th>
                             </tr>
                         </thead>
-                        <tfoot>
-                            <tr>
-                                <th>ID</th>
-                                <th>Nombre</th>
-                                <th></th>
-                            </tr>
-                        </tfoot>
+                      
                         <tbody>
                             <tr>
                                 <?php

@@ -7,8 +7,8 @@ include __DIR__ . '/../../layout/header.php';
 
     <!-- Page Heading -->
     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-        <h1 class="h3 mb-0 text-gray-800">Dashboard</h1>
-        <a href="http://localhost/Clonacion-de-repositorios/EPR-DSM35-AW-PROYECTO/views/estado/add.php"
+        <h1 class="h3 mb-0 text-gray-800">SWMA Admin</h1>
+        <a href="https://localhost/EPR-DSM35-AW-PROYECTO/views/estado/add.php"
             class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
                 class="fas fa-plus fa-sm text-white-50"></i> Agregar Estado</a>
     </div>
@@ -16,13 +16,13 @@ include __DIR__ . '/../../layout/header.php';
     <div class="container-fluid">
 
         <!-- Page Heading -->
-        <h1 class="h3 mb-2 text-gray-800">Tabla de Estados</h1>
+        <h1 class="h3 mb-2 text-gray-800">Tabla de Estado de la Herramienta</h1>
         <p class="mb-4"></p>
 
         <!-- DataTales Example -->
         <div class="card shadow mb-4">
             <div class="card-header py-3">
-                <h6 class="m-0 font-weight-bold text-primary">DataTables Example</h6>
+                <h6 class="m-0 font-weight-bold text-primary">Visualizacion de la Tabla</h6>
             </div>
             <div class="card-body">
                 <div class="table-responsive">
@@ -34,21 +34,15 @@ include __DIR__ . '/../../layout/header.php';
                                 <th></th>
                             </tr>
                         </thead>
-                        <tfoot>
-                            <tr>
-                                <th>ID</th>
-                                <th>Nombre</th>
-                                <th></th>
-                            </tr>
-                        </tfoot>
+                       
                         <tbody>
                             <tr>
                                 <?php
                                 //conexion
-                                include('./../../app/Controllers/cruds-estado/show-estado.php');
-                                while ($row = $resultado->fetch_assoc()) {
+                                include('./../../database/conexion.php');
+                                $sql = $enlace->query("select * from estado");
+                                while ($row = $sql->fetch_assoc()) {
                                     $id_cat = $row['ID'];
-                                    //$descripcion_cat = $row['Descripcion_cat'];
                                     $nombre_cat = $row['Nombre'];
                                     ?>
                                     <td>
@@ -58,13 +52,14 @@ include __DIR__ . '/../../layout/header.php';
                                         <?php echo $nombre_cat; ?>
                                     </td>
                                     <td>
-                                    <!--    <div class="my-2"></div>
-                                        <a href="#" class="btn btn-info btn-icon-split">
+                                        <div class="my-2"></div>
+                                        <a href="https://localhost/EPR-DSM35-AW-PROYECTO/views/estado/show.php?id_cat=<?php echo $id_cat ?>"
+                                            class="btn btn-info btn-icon-split">
                                             <span class="icon text-white-50">
                                                 <i class="fas fa-info-circle"></i>
                                             </span>
                                             <span class="text">Visualizar Registros</span>
-                                        </a>-->
+                                        </a>
                                         <div class="my-2"></div>
                                         <a href="#" class="btn btn-warning btn-icon-split">
                                             <span class="icon text-white-50">
@@ -73,7 +68,8 @@ include __DIR__ . '/../../layout/header.php';
                                             <span class="text">Modificar Registros</span>
                                         </a>
                                         <div class="my-2"></div>
-                                        <a href="#" class="btn btn-danger btn-icon-split">
+                                        <a href="https://localhost/EPR-DSM35-AW-PROYECTO/app/Controllers/cruds-estado/delete-estado.php?id_cat=<?php echo $id_cat ?>"
+                                            class="btn btn-danger btn-icon-split">
                                             <span class="icon text-white-50">
                                                 <i class="fas fa-trash"></i>
                                             </span>

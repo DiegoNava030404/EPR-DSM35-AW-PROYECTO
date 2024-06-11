@@ -44,23 +44,7 @@ include __DIR__ . '/../../layout/header.php';
                                 <th></th>
                             </tr>
                         </thead>
-                        <!-- <tfoot>
-                            <tr>
-                                <th>ID</th>
-                                <th>Nombre Herramienta</th>
-                                <th>No de Serie</th>
-                                <th>Estado</th>
-                                <th>Marca</th>
-                                <th>Ubicacion</th>
-                                <th>Fecha 1er Mantenimiento</th>
-                                <th>Fecha 2do Mantenimiento</th>
-                                <th>Fecha de Egreso</th>
-                                <th>Fecha de Ingreso</th>
-                                <th>Remitente</th>
-                                <th>Fecha de Compra</th>
-                                <th></th>
-                            </tr>
-                        </tfoot> -->
+                       
                         <tbody>
                             <tr>
                                 <?php
@@ -118,14 +102,7 @@ include __DIR__ . '/../../layout/header.php';
                                         <?php echo $fecha_compra_cat; ?>
                                     </td>
                                     <td>
-                                        <!-- <div class="my-2"></div>
-                                        <a href="https://localhost/EPR-DSM35-AW-PROYECTO/views/products/show.php?id_cat=<?php echo $id_cat ?>"
-                                            class="btn btn-info btn-icon-split">
-                                            <span class="icon text-white-50">
-                                                <i class="fas fa-info-circle"></i>
-                                            </span>
-                                            <span class="text">Visualizar Registros</span>
-                                        </a> -->
+                                      
                                         <div class="my-2"></div>
                                         <a href="https://localhost/EPR-DSM35-AW-PROYECTO/views/products/edit.php?id_cat=<?php echo $id_cat ?>" 
                                         class="btn btn-warning btn-icon-split">
