@@ -9,7 +9,7 @@ $resultado = mysqli_query($enlace, $query);
 
 
 if ($resultado === true) {
-    echo "EL registro  se eliminó de manera correcta";
+    echo "EL registro se eliminó de manera correcta";
     header("Location:./../../../views/products/index.php");
 } else {
     echo "EL registro no se eliminó de manera correcta";

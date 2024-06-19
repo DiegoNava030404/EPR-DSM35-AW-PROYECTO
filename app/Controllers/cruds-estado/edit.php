@@ -3,7 +3,9 @@ require __DIR__ . '/../../../database/conexion.php';
 
 $Nombre = $_POST['Estado'];
 
-$query = "INSERT INTO estado (Nombre) VALUES ('$Nombre')";
+$query = "UPDATE estado SET 
+Estado = '$Nombre'
+WHERE ID = '$id_cat'";
 
 $resultado = mysqli_query($enlace, $query);
 

@@ -22,7 +22,7 @@ include __DIR__ . '/../../layout/header.php';
         <!-- DataTales Example -->
         <div class="card shadow mb-4">
             <div class="card-header py-3">
-                <h6 class="m-0 font-weight-bold text-primary">Visualizacion de la Tabla</h6>
+                <h6 class="m-0 font-weight-bold text-primary">Visualizacion de Tabla</h6>
             </div>
             <div class="card-body">
                 <div class="table-responsive">
@@ -61,7 +61,7 @@ include __DIR__ . '/../../layout/header.php';
                                             <span class="text">Visualizar Registros</span>
                                         </a>
                                         <div class="my-2"></div>
-                                        <a href="#" class="btn btn-warning btn-icon-split">
+                                        <a href="https://localhost/EPR-DSM35-AW-PROYECTO/views/estado/edit.php?id_cat=<?php echo $id_cat ?>" class="btn btn-warning btn-icon-split">
                                             <span class="icon text-white-50">
                                                 <i class="fas fa-edit"></i>
                                             </span>

@@ -13,7 +13,7 @@
         <title>Inicio de sesion</title>
     </head>
     <body>
-        <form action="IniciarSesion.php" method="POST">
+        <form action="login.php" method="POST">
             <i class="fa-solid fa-user"></i>
             <label>Usuario</label>
             <input type="text" name="Usuario" placeholder="Nombre de Usuario">
@@ -27,3 +27,5 @@
         </form>
     </body>
 </html>
+
+

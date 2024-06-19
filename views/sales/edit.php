@@ -32,7 +32,7 @@ include __DIR__ . '/../../layout/header.php';
     </div>
    
     <div class="mb-3">
-      <label for="exampleInputPassword1" class="form-label">Cantidad</label>
+      <label for="exampleInputPassword1" class="form-label">Cantidad</label>    
       <input type="number" class="form-control" name="Cantidad" id="Cantidad" value="<?php echo $cantidad_cat ?>">
     </div>
 
@@ -50,7 +50,7 @@ include __DIR__ . '/../../layout/header.php';
       <label for="exampleInputPassword1" class="form-label">Proveedor</label>
       <input type="text" class="form-control" name="Proveedor" id="Proveedor" value="<?php echo $proveedor_cat ?>">
     </div>
-
+        
     <div class="mb-3">
       <label for="exampleInputPassword1" class="form-label">Descripcion</label>
       <input type="text" class="form-control" name="Descripcion" id="Descripcion" value="<?php echo $descripcion_cat ?>">

@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SWMA Dashboard</title>
+    <title>SEEIT</title>
 
     <!-- Custom fonts for this template-->
     <link
@@ -39,11 +39,18 @@
                 <div class="sidebar-brand-icon rotate-n-15">
                     <i class="fas fa-laugh-wink"></i>
                 </div>
-                <div class="sidebar-brand-text mx-3">SWMA Dashboard</div>  
+                <div class="sidebar-brand-text mx-3">SEEIT</div>  
             </a>
 
             <hr class="sidebar-divider d-none d-md-block">
 
+
+
+
+
+
+
+            
             <!-- Nav Item - Tables -->
             <li class="nav-item">
                 <a class="nav-link"
@@ -54,13 +61,13 @@
             </li>
 
             <!-- Nav Item - Tables -->
-            <li class="nav-item">
+            <!-- <li class="nav-item">
                 <a class="nav-link"
                     href="https://localhost/EPR-DSM35-AW-PROYECTO/views/estado/index.php">
                     <i class="fas fa-fw fa-table"></i>
                     <span>Tabla Estado</span></a>
                     <hr class="sidebar-divider d-none d-md-block">
-            </li>
+            </li> -->
           
             <!-- Nav Item - Tables -->
             <li class="nav-item">
@@ -81,13 +88,13 @@
             </li>
 
             <!-- Nav Item - Tables -->
-            <li class="nav-item">
+            <!-- <li class="nav-item">
                 <a class="nav-link"
                     href="https://localhost/EPR-DSM35-AW-PROYECTO/views/tienda/index.php">
                     <i class="fas fa-fw fa-table"></i>
                     <span>Tables Tienda</span></a>
                     <hr class="sidebar-divider d-none d-md-block">
-            </li>
+            </li> -->
 
             <!-- Botón < -->
             <!-- <div class="text-center d-none d-md-inline">

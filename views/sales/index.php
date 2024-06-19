@@ -102,7 +102,7 @@ include __DIR__ . '/../../layout/header.php';
                                         </a>
                                         
                                         <div class="my-2"></div>
-                                        <a href="https://localhost/EPR-DSM35-AW-PROYECTO/cruds-sales/delete-sales.php?id_cat=<?php echo $id_cat ?>"
+                                        <a href="https://localhost/EPR-DSM35-AW-PROYECTO/app/Controllers/cruds-sales/delete-sales.php?id_cat=<?php echo $id_cat ?>"
                                             class="btn btn-danger btn-icon-split">
                                             <span class="icon text-white-50">
                                                 <i class="fas fa-trash"></i>
