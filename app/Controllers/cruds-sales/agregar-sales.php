@@ -1,7 +1,6 @@
 <?php
 require __DIR__ . '/../../../database/conexion.php';
 
-//$ID_Producto = $_POST['ID_Producto'];
 $nombre_cat = $_POST['Nombre'];
 $tipo_material_cat = $_POST['Material'];
 $cantidad_cat = $_POST['Cantidad'];
